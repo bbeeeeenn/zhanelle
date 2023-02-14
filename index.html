@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+  <title>Password</title>
+  <style>
+    body{
+    font-size: 20px;
+    margin: 0;
+    margin-top: 150px;
+    } 
+    .box{
+      background: #d7222b;
+      padding-top: 5px;
+      text-align: center;
+      height: 210px;
+      min-width: 360px;
+      width: 50%;
+      border-radius: 10%;
+      margin: auto;
+    }
+    #password{
+      height: 30px;
+      text-align: center;
+      font-weight: bold;
+      background-color: #d74651;
+      border-color: #d74651;
+    }
+    ::placeholder{
+      font-weight: bolder;
+      color: #000000;
+      font-size: 10px;
+      text-align: center;
+    }
+    button{
+      height: 30px;
+      border-color: #d74651;
+      border-radius: 5px;
+      background-color: #d74651;
+    }
+    .top{
+      background: #d74651;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    #message{
+      background-color: #d74651;
+      border-radius: 50px;
+      }
+  </style>
+</head>
+
+<body id="body">
+ 
+  
+    <div class="box" id="container">
+      <p class="top">Password muna :*</p>
+    <!-- password -->
+      <input type="text" name="password" id="password" placeholder="PASSWORD" required>
+    <!-- button -->
+  <button onclick="myFunction()">Login</button>
+  
+     <div>
+      <p id="message">Clue: Lugar kung san tayo laging nagkikita</p>
+      <img class="picture"src="ako1.jpg" alt="">
+    </div>    
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
