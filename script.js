@@ -29,7 +29,7 @@
        }
        else{
          alert("iloveyou!(灬♥ω♥灬)");
-         window.location.href = "iloveyou.html"
+         window.location.href = "content.html"
           }
        
        if (entryCount > entryLimit) {
