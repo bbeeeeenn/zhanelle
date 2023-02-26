@@ -7,8 +7,13 @@
   <style>
     body{
     font-size: 20px;
+    font-family: system-ui;
     margin: 0;
-    margin-top: 150px;
+    padding-top: 50%;    
+    background-color: #ffbfd5;
+    background-image: url('roblox8.jpg');
+    background-position: center -30px;
+    background-blend-mode: multiply;
     } 
     .box{
       background: #d7222b;
@@ -48,6 +53,29 @@
       background-color: #d74651;
       border-radius: 50px;
       }
+      @media(min-width: 800px){
+          body{
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-attachment: fixed;
+              background-position: center center;
+              padding-top: 20%;
+          }
+          .box{
+              background: #d7222b;
+              padding-top: 5px;
+              text-align: center;
+              height: 210px;
+              min-width: 360px;
+              width: 50%;
+              border-radius: 10%;
+              margin: auto;
+          }
+          #message{
+              border-radius: 0px;
+              padding: 10px;
+          }
+      }
   </style>
 </head>  
 
@@ -63,7 +91,6 @@
   
       <div>
       <p id="message">Clue: Lugar kung san tayo laging nagkikita</p>
-      <img class="picture"src="ako1.jpg" alt="">
     </div>    
   </div>
   
