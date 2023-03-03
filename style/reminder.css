@@ -1,14 +1,16 @@
     body{
       margin: 0px;
       background: #d7222b;
-      padding-bottom: 1vh;
     }
     #body{
-    font-family: serif;
-    font-size: 18px;
-    background-color: #d7222b;
-    max-width: 700px;
-    margin: auto;
+      font-family: serif;
+      font-size: 18px;
+      background-color: #d7222b;
+      max-width: 700px;
+      margin: auto;
+    }
+    .for-margin{
+        margin: 1%;
     }
     hr{
       background-color: white;
@@ -22,8 +24,6 @@
       padding: 10px;
       font-weight: bold;
       /* text-align: center; */
-      margin-left: 1%;
-      margin-right: 1%;
     }
     .back{
       font-size: 15px;
