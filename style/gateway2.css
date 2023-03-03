@@ -12,9 +12,9 @@
     animation-iteration-count: infinite;
     } 
      @keyframes myAnimation {
-        0% {background-position: left -30px;}
-        50% {background-position: right -30px;}
-        100%{background-position: left -30px;}
+        0% {background-position: right -30px;}
+        50% {background-position: left -30px;}
+        100%{background-position: right -30px;}
     } 
     .box{
       background: #d7222b;
@@ -26,12 +26,13 @@
       border-radius: 10%;
       margin: auto;
     }
-    #password{
+    #date{
       height: 30px;
       text-align: center;
-      font-weight: bold;
+      font-weight: lighter;
       background-color: #d74651;
       border-color: #d74651;
+      border-radius: 10%;
     }
     ::placeholder{
       font-weight: bolder;
@@ -64,9 +65,9 @@
               animation-duration: 5s;
           }
           @keyframes myAnimation {
-        0% {background-position: left center;}
-        50% {background-position: right center;}
-        100%{background-position: left center;}
+        0% {background-position: right center;}
+        50% {background-position: left center;}
+        100%{background-position:right center;}
     } 
           .box{
               background: #d7222b;
